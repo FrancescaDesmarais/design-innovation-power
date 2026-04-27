@@ -1,5 +1,5 @@
 // Replace this URL with your deployed Google Apps Script Web App URL
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzM1JTYIrGloME_dTRPubNWexYLVAtxOGbByxqp3zA_d720C66iCEqCALaxrc65xmE-/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxI98tbNUP21fK2q3_9O1r6xEm2wEx7x6l9Up5hJnuwYcz2D2axAF-nIXqBGArCE5w/exec';
 
 document.getElementById('submit-btn').addEventListener('click', function () {
   const answer1 = document.getElementById('answer1').value.trim();
