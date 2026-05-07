@@ -12,6 +12,7 @@
   --accent: #1A1A1A;
   --sage: #5C7A5E;
   --sage-dark: #3D5740;
+  --sage-tint: #E3EBE4;
   --max-width: 680px;
   --font-serif: 'Lora', Georgia, serif;
   --font-display: 'Playfair Display', Georgia, serif;
@@ -51,7 +52,7 @@ body {
   font-family: var(--font-serif);
   font-size: 0.85rem;
   font-style: italic;
-  color: var(--text-muted);
+  color: var(--sage-dark);
   letter-spacing: 0.03em;
   margin-top: 1.25rem;
   margin-bottom: 3rem;
@@ -170,7 +171,7 @@ main {
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--sage);
   margin-bottom: 0.75rem;
 }
 
@@ -271,7 +272,7 @@ button:disabled {
 /* ABOUT */
 
 .about {
-  background-color: #EFEDE8;
+  background-color: var(--sage-tint);
   margin-top: 4rem;
   padding: 4rem 1.5rem;
 }
