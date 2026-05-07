@@ -10,6 +10,8 @@
   --text-muted: #6B6B6B;
   --border: #D8D4CC;
   --accent: #1A1A1A;
+  --sage: #5C7A5E;
+  --sage-dark: #3D5740;
   --max-width: 680px;
   --font-serif: 'Lora', Georgia, serif;
   --font-display: 'Playfair Display', Georgia, serif;
@@ -135,7 +137,7 @@ main {
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--sage);
   margin-bottom: 1rem;
 }
 
@@ -221,16 +223,16 @@ button {
   font-family: var(--font-serif);
   font-size: 1rem;
   color: var(--bg);
-  background-color: var(--text);
+  background-color: var(--sage);
   border: none;
   padding: 0.875rem 2rem;
   cursor: pointer;
   letter-spacing: 0.02em;
-  transition: opacity 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 button:hover {
-  opacity: 0.8;
+  background-color: var(--sage-dark);
 }
 
 button:disabled {
@@ -263,6 +265,7 @@ button:disabled {
 .closing-thought {
   margin-top: 2rem;
   font-size: 1.05rem;
+  color: var(--sage);
 }
 
 /* ABOUT */
@@ -316,15 +319,16 @@ button:disabled {
 .linkedin-link {
   font-family: var(--font-serif);
   font-size: 0.9rem;
-  color: var(--text);
+  color: var(--sage);
   text-decoration: none;
-  border-bottom: 1px solid var(--text);
+  border-bottom: 1px solid var(--sage);
   padding-bottom: 1px;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .linkedin-link:hover {
-  opacity: 0.6;
+  color: var(--sage-dark);
+  border-color: var(--sage-dark);
 }
 
 /* RESPONSIVE */
