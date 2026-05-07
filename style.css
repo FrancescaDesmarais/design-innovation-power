@@ -194,6 +194,7 @@ textarea {
   border: 1px solid var(--border);
   border-radius: 2px;
   padding: 0.875rem 1rem;
+  margin-top: 0.5rem;
   resize: vertical;
   outline: none;
   transition: border-color 0.2s ease;
@@ -204,7 +205,7 @@ textarea::placeholder {
 }
 
 textarea:focus {
-  border-color: var(--text);
+  border-color: var(--sage);
 }
 
 /* SUBMIT */
